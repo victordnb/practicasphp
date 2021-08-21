@@ -2,9 +2,27 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Formulario on php</title>
+    
 </head>
+
 <body>
+<title>Formulario on php</title>
+
+<form action="recibir.php" method="POST">
+        <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" value="">
+        </p>
+        <p>
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" value="">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+    <p> 
+        </p>
     
     <form action="formulario.php" method="post">
         <label>Nombre:</label>
