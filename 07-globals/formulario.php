@@ -24,7 +24,7 @@
     <p> 
         </p>
     
-    <form action="formulario.php" method="post">
+    <form action="recibir.php" method="POST">
         <label>Nombre:</label>
         <input type="text" name="nombre" />
         <br />
@@ -58,6 +58,8 @@
         <label>Telefono:</label>
         <input type="text" name="telefono" />
         <br />
+        <input type="submit" value="Enviar">
+    </form>
         
 
 
